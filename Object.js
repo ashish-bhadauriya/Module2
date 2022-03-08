@@ -24,3 +24,16 @@ let capAmerica={
     }
 }
 console.log(capAmerica);
+//Name of Cap America
+console.log(capAmerica.Name);
+
+//Age of cap America
+console.log(capAmerica.Age);
+//Address of caption america
+console.log(capAmerica.address);
+
+//City of cap America
+console.log(capAmerica.address.city);
+
+//console.log(capAmerica.SayHi());
+capAmerica.SayHi();
