@@ -14,6 +14,7 @@ console.log(ObjName);
 let capAmerica={
     Name:'Steave',
     Age:99,
+    isAvenger:false,
     friends:['Natsa','Thor','Tony','Bucky'],
     address:{
         city:"Queen",
@@ -37,3 +38,15 @@ console.log(capAmerica.address.city);
 
 //console.log(capAmerica.SayHi());
 capAmerica.SayHi();
+//Add a new key to Object
+// console.log("Before adding ",capAmerica);
+// capAmerica.Movies=['Avengers','civilWar','Endgame'];
+// console.log("after adding ",capAmerica);
+//console.log(capAmerica);
+capAmerica.isAvenger=true;
+console.log(capAmerica);
+
+capAmerica.address.State="USA";
+console.log(capAmerica);
+console.log(capAmerica.Name);
+console.log(capAmerica['Name']);
